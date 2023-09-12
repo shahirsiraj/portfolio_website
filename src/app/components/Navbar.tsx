@@ -31,6 +31,7 @@ export default function Navbar() {
     // function toggleNavbar() {
     //     setNavbarOpen
     // }
+
     
     return (
         <nav className='fixed top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100'>
