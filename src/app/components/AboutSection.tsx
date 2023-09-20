@@ -64,11 +64,11 @@ export default function AboutSection() {
                 <div className="mt-4 md:mt=0 text-left flex flex-col h-full">
                     <h2 className="text-3xl font-bold text-white mb-4">About Me</h2>
                     <p className="text-base md:text-lg">
-                    Hello, I'm Shahir, a full-stack software engineer with a passion for innovation and a background in psychological sciences. I have experience working with Javascript, Typescript, React, Redux, Node.js, Express, MongoDB, Mongoose, MySQL, Sequelize, Firebase, HTML, CSS, Git and AWS.
+                    Hello, I'm Shahir, a full-stack software engineer with a passion for innovation and a background in psychological sciences. 
                     
                     My journey into the world of technology began as a psychology graduate, where I cultivated a deep understanding of human behavior, decision-making processes, cognitive patterns and research methodologies. These insights sparked my fascination with creating software that not only solves technical challenges but also resonates with users on a profound level.
 
-                    With expertise in multiple programming languages, front-end and back-end development, and data-driven decision-making, I bring a versatile skill set to every project. My approach to software engineering is unique — I blend technical excellence with a human-centered design philosophy. I thrive in dynamic, collaborative environments that demand creative problem-solving.
+                   
                     </p>
                     <div className="flex flex-row mt-8 justify-start">
                         <TabButton selectTab={() => handleTabChange('skills')} active={tab === "skills"}>{""}Skills{""}</TabButton>
